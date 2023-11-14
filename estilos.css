@@ -1,0 +1,142 @@
+#carousel_index::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#2b3035,40%,rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 10px;
+}
+#carousel-img1{
+    background: blue;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(sources/1\ carrusel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img2{
+    background: blue;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(sources/2\ carrusel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img3{
+    background: blue;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(sources/3\ carrusel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#carousel-img4{
+    background: blue;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(sources/4\ carrusel.jpg);
+    background-size: cover;
+    background-position: center 0px;
+}
+#barra_menu .container-fluid #navbarNavDropdown .navbar-nav .nav-item img{
+    width: 35px;
+    filter: grayscale(0.8) ;
+    transition: 0.5s;
+    background: rgb(77, 77, 112);
+    padding: 5px    ;
+    border-radius: 2em;
+
+}
+#barra_menu .container-fluid #navbarNavDropdown .navbar-nav .nav-item img:hover{
+    filter: grayscale(0) saturate(2);
+}
+#barra_menu{
+    background: #2b3035;
+}
+#titulo{
+    width: 100%;
+    background: rgba(63, 6, 155, 0.568);
+    height: 100vh;
+    position: fixed;
+    top: 00vh;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+}
+#espacio{
+    height: 20px;
+}
+#apartado_1{
+    background: rgb(48, 46, 46);
+    width: 90%;
+    margin: auto;
+    border-radius: 1em;
+    padding: 20px;
+}
+#apartado_1 .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 767px) {
+    #apartado_1 .col-md-4:nth-child(1){
+        margin-bottom: 100px;
+    }
+    #apartado_1 .col-md-4:nth-child(2){
+        margin-bottom: 100px;
+    }
+}
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #919191;
+    font-weight: 600;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul a {
+    text-decoration: none;
+    color: #505050;
+    font-weight: 600;
+    padding: 0 10px;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer ul a:hover{
+    color: rgb(170, 170, 170);
+    background: #0f0000;
+  }
+  
